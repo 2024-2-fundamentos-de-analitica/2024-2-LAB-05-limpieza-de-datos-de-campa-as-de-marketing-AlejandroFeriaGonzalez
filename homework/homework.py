@@ -9,6 +9,7 @@ def pregunta_01():
 
     """
 
+
     import pandas as pd
     import os
     df = pd.read_csv("files/input/solicitudes_de_credito.csv", sep=";", index_col=0)
